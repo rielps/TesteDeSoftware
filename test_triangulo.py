@@ -1,5 +1,4 @@
 import unittest
-import unity
 from Triangulo import ladosTriangulo
 
 
