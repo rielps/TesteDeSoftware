@@ -1,5 +1,5 @@
 import unittest
-from Triangulo import ladosTriangulo
+from triangulo_mutante01 import ladosTriangulo
 
 
 class TestTriangulo(unittest.TestCase):

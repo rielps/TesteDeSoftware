@@ -10,7 +10,7 @@ def ladosTriangulo(a, b, c):
     b = b_num
     c = c_num
 
-    if (a + b > c) and (a + c > b) and (b + c > a) and a > 0 and b > 0 and c > 0:
+    if (a + b > c) and (a - c < b) and (b + c > a) and a > 0 and b > 0 and c > 0:
         if a == b and b == c:
             return "Equilátero"
         elif (a == b and b != c) or (a == c and a != b) or (c == b and a != b):
