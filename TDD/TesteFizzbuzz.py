@@ -3,8 +3,9 @@ import FizzBuzz
 
 
 class TesteFizzBuzz(unittest.TestCase):
-    def test1(self):
-
-        
-
+    def testNormal(self):
+        self.assertEqual(1, FizzBuzz.FizzBuzz(1))
+     
+if __name__ == '__main__':
+     unittest.main()
 
